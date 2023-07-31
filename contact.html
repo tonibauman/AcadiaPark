@@ -6,6 +6,10 @@
         <meta name="keywords" content="park, equipment, hiking, visit, outside, sports">
         <meta name="author" content="Toni Bauman">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        
         <title>Contact</title>
         <link rel="stylesheet" href="css/stylesheet.css">
         <script src="jquery.js">
@@ -40,17 +44,30 @@
         </style>
     </head>
     <body style="background-color: rgb(0, 0, 0);">
-    <h1 style="color: rgb(255, 255, 255); font-family: Cambria; text-align: center; font-size: 500%;">Contact Us</h1>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Our Products</a></li>
-        <li><a href="parks.html">Visit Parks</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
+    <h1 style="border: 2px solid white; color: rgb(138, 51, 36); font-family: Cambria; text-align: center; font-size: 500%;">Contact Us</h1>
+    <nav class="navbar navbar-dark bg-black justify-content-center" 
+    style="font-family: Cambria; font-size: larger; font-style: bold;">
+   <div class="container-fluid">
+       <a class="navbar-brand" href="#"></a>
+       <button2 class="navbar-toggler" type="button" data-toggle="collapse" data-target="#S"
+           aria-controls="S" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+       </button2>
+   <div class="collapse navbar-collapse" id="S">
+   <div class="navbar-nav">
+       <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+       <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+       <a class="nav-link active" aria-current="page" href="parks.html">Visit Parks</a>
+       <a class="nav-link active" aria-current="page" href="about.html">About</a>
+       <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+   </div>
+   </div>
+   </div>
+</nav>
 
     <h2> </h2>
-    <h3 style="color: white;">
+    <div class="container">
+    <h3 style="color: white; font-family: cambria; font-size: medium;">
         <form name="myForm" action="thankyou.html" onsubmit="return validateForm()" method="post">
             First Name: <input type="text" name="fname"> <br>
             Last Name: <input type="text" name="lname"> <br>
@@ -58,14 +75,15 @@
             Phone Number: <input type="number" name="pnumber"> <br>
             <input type="submit" value="Submit">
           </form>
-    </h3>
+    </h3>        
+    </div> <br>
     <p style="color: white" text="center">
-                Acadia Park Equipment Co. <br>
-                Visit us at: <br>
-                1464 Greenway Road <br>
-                Indepdence, MO 54056 <br>
-                Call Us at: <br>
-                880-453-9984
+                <b>Acadia Park Equipment Co. </b> <br>
+                <i>Visit us at: </i><br>
+                <b>1464 Greenway Road </b><br>
+                <b>Indepdence, MO 54056 </b><br>
+                <i>Call Us at:</i> <br>
+                <b>880-453-9984</b>
     </p>
 
     </body>
